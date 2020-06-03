@@ -138,13 +138,21 @@
 /*------------------------- Css product.html----------------------*/
 
 /* slider */
+.carousel-item{
+	margin-top: 40px;
+}
+
 .carousel-caption{
 	text-shadow: 1px 1px 1px black;
 }
 
 .product1{
-	margin-top: 30px;
-	font-size: 5px;
+	margin-top: 10px;
+	font-size: 8px;
+}
+
+.product1 .card{
+	line-height: 4px;
 }
 
 .container .head{
@@ -207,6 +215,7 @@
 
 	.carousel-item{
 		height: 620px;
+		margin-top: 0px;
 	}
 
 	.carousel-caption{
@@ -220,6 +229,10 @@
 
 	.product1{
 		font-size: 16px;
+	}
+
+	.product1 .card{
+		line-height: 100%;
 	}
 
 }
