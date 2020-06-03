@@ -144,6 +144,7 @@
 
 .product1{
 	margin-top: 30px;
+	font-size: 12px;
 }
 
 .container .head{
@@ -215,6 +216,10 @@
 	.dropdown-item{
 		text-shadow: 1px 1px 1px white;
 		font-weight: 500;
+	}
+
+	.product1{
+		font-size: 16px;
 	}
 
 }
